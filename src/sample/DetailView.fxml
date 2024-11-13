@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="691.0" prefWidth="732.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DetailViewController">
+   <children>
+      <Pane layoutX="50.0" prefHeight="633.0" prefWidth="648.0">
+         <children>
+            <VBox layoutX="169.0" layoutY="285.0" prefHeight="304.0" prefWidth="508.0">
+               <children>
+                  <HBox prefHeight="63.0" prefWidth="479.0">
+                     <children>
+                        <Label prefHeight="62.0" prefWidth="265.0" text="Latest Reviewer Name:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="LatestReviewerNameLabel" prefHeight="62.0" prefWidth="326.0" text="PlaceHolder">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="48.0" prefWidth="499.0">
+                     <children>
+                        <Label prefHeight="62.0" prefWidth="259.0" text="Movies/TV series Name:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="MovieNameLabel" prefHeight="62.0" prefWidth="326.0" text="PlaceHolder">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="50.0" prefWidth="499.0">
+                     <children>
+                        <Label prefHeight="62.0" prefWidth="246.0" text="Story Rating:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="StoryRatingLabel" prefHeight="49.0" prefWidth="315.0" text="PlaceHolder">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="49.0" prefWidth="499.0">
+                     <children>
+                        <Label prefHeight="62.0" prefWidth="254.0" text="Acting Rating:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="ActingRatingLabel" prefHeight="62.0" prefWidth="326.0" text="PlaceHolder">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="50.0" prefWidth="499.0">
+                     <children>
+                        <Label prefHeight="62.0" prefWidth="254.0" text="Dialogue Rating:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="DialogueRatingLabel" prefHeight="62.0" prefWidth="326.0" text="PlaceHolder">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="51.0" prefWidth="499.0">
+                     <children>
+                        <Label prefHeight="62.0" prefWidth="254.0" text="Visual Rating:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="VisualRatingLabel" prefHeight="62.0" prefWidth="326.0" text="PlaceHolder">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="45.0" prefWidth="498.0">
+                     <children>
+                        <Label prefHeight="62.0" prefWidth="254.0" text="Latest Review (out of 5 Stars):">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="LatestReviewRatingLabel" prefHeight="62.0" prefWidth="326.0" text="PlaceHolder">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="42.0" prefWidth="498.0">
+                     <children>
+                        <Label prefHeight="62.0" prefWidth="254.0" text="Short Review Message">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="ShortReviewMessageLabel" prefHeight="62.0" prefWidth="326.0" text="PlaceHolder">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+            <ImageView fx:id="MoviePosterImageView" fitHeight="262.0" fitWidth="411.0" layoutX="169.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
